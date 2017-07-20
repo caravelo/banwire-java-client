@@ -12,7 +12,8 @@ public class Purchase
     private String description;
     private BigDecimal amount;
 
-    @Override public boolean equals(Object o)
+    @Override
+    public boolean equals(Object o)
     {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
