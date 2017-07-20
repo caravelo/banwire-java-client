@@ -18,6 +18,6 @@ public class BanwireClientApp
         parameters.put("amount", 100);
 
         BanwireClient banwire = new BanwireClient(HOST, USER);
-        banwire.purchase(parameters);
+        System.out.println(banwire.purchase(parameters));
     }
 }

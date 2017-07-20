@@ -1,12 +1,18 @@
 package com.caravelo.banwire.client;
 
-/**
- * Created by cyf on 20/07/17.
- */
 public class BanwireClientException extends Exception
 {
     public BanwireClientException(String message)
     {
         super(message);
+    }
+
+    public BanwireClientException(Throwable e)
+    {
+        super(e);
+    }
+    public BanwireClientException(String message, Throwable e)
+    {
+        super(message, e);
     }
 }
